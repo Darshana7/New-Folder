@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- bean definitions here <bean id="engine" class="com.te.spring.Engine"> 
+		<constructor-arg value="AG 46" /> <constructor-arg value="150" /> </bean> 
+		<bean id="car" class="com.te.spring.Car"> <constructor-arg ref="engine" /> 
+		<constructor-arg value="Tureno" /> </bean> <bean id="eng" class="com.te.spring.Engine"> 
+		<property name="name" value="AG6"/> <property name="capacity" value="1400"/> 
+		</bean> <bean id="car" class="com.te.spring.Car"> <property name="name" value="Lan 
+		Evo IV"/> <property name="e" ref="eng"/> </bean> -->
+		
+	<bean class="com.te.springscope.Demo" scope="prototype"></bean>
+	
+
+	<!-- <bean class="com.te.spring.autowire.Laptop" autowire="constructor" />
+
+	<bean id="b" class="com.te.spring.autowire.Battery" />
+
+	<bean id="s" class="com.te.spring.autowire.Screen" />
+
+	<bean id="hardDisk1" class="com.te.spring.autowire.HardDisk">
+		<property name="name" value="Seagate" />
+	</bean>
+	<bean id="hd2" class="com.te.spring.autowire.HardDisk">
+		<property name="name" value="Sandisk" /> 
+	</bean> -->
+</beans>
